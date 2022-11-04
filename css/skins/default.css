@@ -138,6 +138,7 @@ mark {
 
 .btn-4 {
     background: #e87424;
+    border-radius: 20px;
 }
 
 .btn-5 {
@@ -151,6 +152,7 @@ mark {
 
 .btn-6 {
     background: #e87424;
+    border-radius: 20px;
 }
 
 .btn-6:before {
@@ -164,6 +166,7 @@ mark {
 .btn-6:hover {
     color: #e87424;
     border: 2px solid #e87424;
+    border-radius: 20px;
 }
 
 .btn-7:hover{
@@ -882,9 +885,19 @@ li.active.btn.filtr-button.filtr {
 .banner-3 .slider-container .action-buttons button{
     background: #e87424;
 }
+input.form-1 {
+    border: 0px solid #e87424;
+    border-bottom: #B0BEC5 1px solid;
 
+}
+input.form-1-none {
+    border: 0px solid #e87424;
+
+}
 .banner-3 .isa-6{
-    background: #e87424;
+    border: #B0BEC5 1px solid;
+    border-radius: 12px;
+    background-color: #FFF;
 }
 
 .breadcrumb-nav ul .active {

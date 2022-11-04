@@ -1387,7 +1387,7 @@ input[type=checkbox]:checked + label:before {
 .banner-3 .slider-container {
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 69vh;
 }
 
 .banner-3 .left-slide {
@@ -1438,6 +1438,7 @@ input[type=checkbox]:checked + label:before {
 
 .banner-3 .btn-black{
     background: #000;
+    border-radius: 20px;
 }
 
 .banner-3 .left-slide > div {
@@ -3700,7 +3701,26 @@ mark {
     display:flex;
     padding: 0 15px;
 }
-
+.promo-form p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.promo-form a {
+    color: #e87424;
+    font-weight: 500;
+}
+.box-form{
+    width: 100%;
+    border: 1px solid #B0BEC5;
+    padding: 12px 12px 0px 12px;
+    border-radius: 16px;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
 .slide-box-2 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -6400,13 +6420,12 @@ mark {
 /** Footer start **/
 .main-footer-1 {
     padding-top: 80px;
-    background: url(../img/footer.png);
     z-index: 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-color: #fff;
+    background-color: #f3f3f3;
 }
 
 .main-footer-1 h4 {
