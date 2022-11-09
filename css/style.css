@@ -1387,7 +1387,7 @@ input[type=checkbox]:checked + label:before {
 .banner-3 .slider-container {
     position: relative;
     overflow: hidden;
-    height: 69vh;
+    height: 100vh;
 }
 
 .banner-3 .left-slide {
@@ -8114,10 +8114,11 @@ mark {
     color: orange;
 }
 
+
 .comment-meta {
     margin-bottom: 10px;
     font-size: 14px;
-    color: #343434;
+    color: #e7e7e7;
     font-weight: 400;
 }
 
@@ -8891,14 +8892,23 @@ margin-top: 30px;
     font-weight: 500;
     margin-top: 15px;
 }
-
+.zolo-tittle {
+    text-align: center;
+    color: #003ba3;
+    font-weight: 400;
+    font-size: x-large;
+}
 .sidebar .recent-properties-box .detail header {
     padding-bottom: 0;
 }
+.p-sub{
+    text-align: center;
+    
 
+}
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/img-2.png) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/inicio/publica.jpg) top left repeat;
     background-size: cover;
     height: 400px;
     background-position: center center;
@@ -9802,7 +9812,6 @@ margin-top: 30px;
     color: #fff;
     margin-bottom: 10px;
 }
-
 .properties-details-Slider .ratings-2 {
     font-size: 13px;
     font-weight: 500;
